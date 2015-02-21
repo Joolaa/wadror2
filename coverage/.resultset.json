@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/mluukkai/kurssirepot/ratebeer/app/models/rating.rb": [
+      "/home/jola/programming/ratebeer2/app/models/rating.rb": [
         1,
         1,
         1,
@@ -15,35 +15,35 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/application_helper.rb": [
+      "/home/jola/programming/ratebeer2/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/beer_clubs_helper.rb": [
+      "/home/jola/programming/ratebeer2/app/helpers/beer_clubs_helper.rb": [
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/beers_helper.rb": [
+      "/home/jola/programming/ratebeer2/app/helpers/beers_helper.rb": [
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/breweries_helper.rb": [
+      "/home/jola/programming/ratebeer2/app/helpers/breweries_helper.rb": [
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/memberships_helper.rb": [
+      "/home/jola/programming/ratebeer2/app/helpers/memberships_helper.rb": [
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/styles_helper.rb": [
+      "/home/jola/programming/ratebeer2/app/helpers/styles_helper.rb": [
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/helpers/users_helper.rb": [
+      "/home/jola/programming/ratebeer2/app/helpers/users_helper.rb": [
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/models/beer.rb": [
+      "/home/jola/programming/ratebeer2/app/models/beer.rb": [
         1,
         1,
         null,
@@ -60,7 +60,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/models/concerns/rating_average.rb": [
+      "/home/jola/programming/ratebeer2/app/models/concerns/rating_average.rb": [
         1,
         1,
         null,
@@ -69,13 +69,13 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/models/beer_club.rb": [
+      "/home/jola/programming/ratebeer2/app/models/beer_club.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/beer_clubs_controller.rb": [
+      "/home/jola/programming/ratebeer2/app/controllers/beer_clubs_controller.rb": [
         1,
         1,
         1,
@@ -158,7 +158,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/application_controller.rb": [
+      "/home/jola/programming/ratebeer2/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -176,7 +176,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/models/brewery.rb": [
+      "/home/jola/programming/ratebeer2/app/models/brewery.rb": [
         1,
         1,
         null,
@@ -188,7 +188,7 @@
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/models/user.rb": [
+      "/home/jola/programming/ratebeer2/app/models/user.rb": [
         1,
         1,
         null,
@@ -256,7 +256,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/models/style.rb": [
+      "/home/jola/programming/ratebeer2/app/models/style.rb": [
         1,
         1,
         null,
@@ -265,7 +265,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/sessions_controller.rb": [
+      "/home/jola/programming/ratebeer2/app/controllers/sessions_controller.rb": [
         1,
         1,
         null,
@@ -289,7 +289,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/users_controller.rb": [
+      "/home/jola/programming/ratebeer2/app/controllers/users_controller.rb": [
         1,
         1,
         null,
@@ -368,13 +368,13 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/models/membership.rb": [
+      "/home/jola/programming/ratebeer2/app/models/membership.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/beers_controller.rb": [
+      "/home/jola/programming/ratebeer2/app/controllers/beers_controller.rb": [
         1,
         1,
         1,
@@ -461,7 +461,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/breweries_controller.rb": [
+      "/home/jola/programming/ratebeer2/app/controllers/breweries_controller.rb": [
         1,
         1,
         1,
@@ -539,7 +539,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/lib/beermapping_api.rb": [
+      "/home/jola/programming/ratebeer2/lib/beermapping_api.rb": [
         1,
         1,
         6,
@@ -567,12 +567,12 @@
         null,
         null,
         1,
-        4,
-        4,
+        0,
+        0,
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/models/place.rb": [
+      "/home/jola/programming/ratebeer2/app/models/place.rb": [
         1,
         1,
         null,
@@ -583,7 +583,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/places_controller.rb": [
+      "/home/jola/programming/ratebeer2/app/controllers/places_controller.rb": [
         1,
         1,
         null,
@@ -603,7 +603,7 @@
         null,
         null
       ],
-      "/Users/mluukkai/kurssirepot/ratebeer/app/controllers/ratings_controller.rb": [
+      "/home/jola/programming/ratebeer2/app/controllers/ratings_controller.rb": [
         1,
         1,
         1,
@@ -636,6 +636,6 @@
         null
       ]
     },
-    "timestamp": 1423336357
+    "timestamp": 1424553499
   }
 }
