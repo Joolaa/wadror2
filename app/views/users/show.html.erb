@@ -34,6 +34,11 @@
   <% end %>
 </ul>
 
+<% if current_user.admin %>
+    <%= link_to "freeze account", toggle_disabled_user_path(@user.id), method: :post, class:"btn btn-danger" if not @user.disabled %>
+    <%= link_to "thaw account", toggle_disabled_user_path(@user.id), method: :post, class:"btn btn-primary" if @user.disabled %>
+<% end %>
+
 <% if @user == current_user %>
   <%= link_to 'Change password', edit_user_path(@user), class:'btn btn-primary' %>
   <%= link_to 'Delete account', @user, method: :delete, data: { confirm: 'Are you sure?' }, class:'btn btn-danger' %></

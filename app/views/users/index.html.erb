@@ -11,6 +11,7 @@
     <% @users.each do |user| %>
       <tr>
         <td><%= link_to user.username, user %></td>
+        <td><%= "account frozen" if user.disabled %></td>
       </tr>
     <% end %>
   </tbody>

@@ -1,0 +1,15 @@
+<h2><%= "Best #{itemname}" %></h2>
+<table class="table table-hover">
+    <thead>
+        <th></th>
+        <th>average</th>
+    </thead>
+    <tbody>
+        <% items.each do |item| %>
+            <tr>
+                <td><%= link_to item.name, item %></td>
+                <td><%= round(item.average_rating) %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>

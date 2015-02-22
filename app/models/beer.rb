@@ -1,5 +1,6 @@
 class Beer < ActiveRecord::Base
   include RatingAverage
+  extend TopItem
 
   belongs_to :style
   belongs_to :brewery
@@ -11,5 +12,9 @@ class Beer < ActiveRecord::Base
 
   def to_s
     "#{name} #{brewery.name}"
+  end
+
+  def self.top(n)
+      self.top_item(Beer, n)
   end
 end
