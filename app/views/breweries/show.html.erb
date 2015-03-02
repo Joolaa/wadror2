@@ -1,3 +1,4 @@
+<% cache @brewery do %>
 <h2><%= @brewery.name %>
     <% if not @brewery.active  %>
         <span class="label label-info">retired</span>
@@ -28,4 +29,5 @@
 <% if current_user %>
     <%= link_to 'Edit', edit_brewery_path(@brewery), class:"btn btn-primary"  %>
     <%= link_to 'Destroy', @brewery, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger"  %>
+<% end %>
 <% end %>

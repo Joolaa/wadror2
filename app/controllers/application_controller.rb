@@ -19,5 +19,5 @@ class ApplicationController < ActionController::Base
           redirect_to :back, notice: "you need admin privileges to do that"
       end
   end
-  
+
 end

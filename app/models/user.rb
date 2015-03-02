@@ -68,4 +68,8 @@ class User < ActiveRecord::Base
   def self.most_ratings(n)
       User.all.sort_by{ |u| -(u.ratings.count||0) }.take(n)
   end
+
+  def is_frozen?
+      self.disabled
+  end
 end

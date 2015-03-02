@@ -1,0 +1,63 @@
+o: ActiveSupport::Cache::Entry:@valueI"Í
+<p> Number of active breweries: 3 </p>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th><a href="/breweries?order=name">Name</a></th>
+            <th><a href="/breweries?order=year">Year</a></th>
+        </tr>
+    </thead>
+
+    <tbody>
+            <tr>
+                <td><a href="/breweries/7">Kalja mesta</a></td>
+                <td>1666</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/breweries/1">Koff</a></td>
+                <td>1897</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/breweries/3">Weihenstephaner</a></td>
+                <td>1042</td>
+                <td></td>
+            </tr>
+    </tbody>
+</table>
+
+
+<h2>Retired</h2>
+
+<p> Number of retired breweries: 3 </p>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th><a href="/breweries?order=name">Name</a></th>
+            <th><a href="/breweries?order=year">Year</a></th>
+        </tr>
+    </thead>
+
+    <tbody>
+            <tr>
+                <td><a href="/breweries/5">Malmgard</a></td>
+                <td>2001</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/breweries/8">Testi</a></td>
+                <td>1987</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="/breweries/9">konkurssipes√§</a></td>
+                <td>1993</td>
+                <td></td>
+            </tr>
+    </tbody>
+</table>
+
+:ET:@created_atf1425320910.2180722:@expires_in0

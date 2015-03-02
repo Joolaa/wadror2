@@ -1,5 +1,6 @@
 <h1>Rating statistics</h1>
 
+<% cache 'ratings', expires_in:2.minutes do %>
 <div class="row">
     <div class="col-md-4">
         <%= render 'list_best', items: @top_beers, itemname: 'beers' %>
@@ -44,3 +45,4 @@
         <li><%= "#{rating} " %><%= link_to rating.user.username, rating.user %></li>
     <% end %>
 </ul>
+<% end %>

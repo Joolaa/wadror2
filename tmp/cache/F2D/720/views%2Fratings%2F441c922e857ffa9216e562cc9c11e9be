@@ -1,0 +1,112 @@
+o: ActiveSupport::Cache::Entry:@valueI"a
+<div class="row">
+    <div class="col-md-4">
+        <h2>Best beers</h2>
+<table class="table table-hover">
+    <thead>
+        <th></th>
+        <th>average</th>
+    </thead>
+    <tbody>
+            <tr>
+                <td><a href="/beers/2">Top beer</a></td>
+                <td>50.0</td>
+            </tr>
+            <tr>
+                <td><a href="/beers/1">Koff III</a></td>
+                <td>33.0</td>
+            </tr>
+            <tr>
+                <td><a href="/beers/3">Not so good beer</a></td>
+                <td>6.0</td>
+            </tr>
+    </tbody>
+</table>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Best breweries</h2>
+<table class="table table-hover">
+    <thead>
+        <th></th>
+        <th>average</th>
+    </thead>
+    <tbody>
+            <tr>
+                <td><a href="/breweries/3">Weihenstephaner</a></td>
+                <td>50.0</td>
+            </tr>
+            <tr>
+                <td><a href="/breweries/1">Koff</a></td>
+                <td>33.0</td>
+            </tr>
+            <tr>
+                <td><a href="/breweries/7">Kalja mesta</a></td>
+                <td>6.0</td>
+            </tr>
+    </tbody>
+</table>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Best styles</h2>
+<table class="table table-hover">
+    <thead>
+        <th></th>
+        <th>average</th>
+    </thead>
+    <tbody>
+            <tr>
+                <td><a href="/styles/1">Lager</a></td>
+                <td>23.8</td>
+            </tr>
+    </tbody>
+</table>
+
+    </div>
+</div>
+
+<h2>Most active users</h2>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th></th>
+            <th>favorite beer</th>
+            <th>preferred style</th>
+            <th>favorite brewery</th>
+            <th>ratings</th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td>urho</td>
+                <td>Top beer Weihenstephaner</td>
+                <td>Lager</td>
+                <td>Weihenstephaner</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>keiju</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Orava</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>0</td>
+            </tr>
+    </tbody>
+</table>
+<h2>Recent ratings</h2>
+<ul>
+        <li>Not so good beer 5 <a href="/users/1">urho</a></li>
+        <li>Not so good beer 7 <a href="/users/1">urho</a></li>
+        <li>Top beer 50 <a href="/users/1">urho</a></li>
+        <li>Koff III 33 <a href="/users/1">urho</a></li>
+</ul>
+:ET:@created_atf1425321636.9456344:@expires_inf
+1.2e2
